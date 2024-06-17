@@ -32,8 +32,12 @@ body {
         font-size: 26px;
         color: #fff;
         border-radius: 10px;
-        transition: 800ms;
+        transition: .2s;
     }
+}
+
+.restart:hover {
+    background-color: rgb(111, 181, 0);
 }
 
 .board {
