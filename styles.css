@@ -55,13 +55,16 @@ body {
 .mario {
     position: absolute;
     bottom: 0px;
-    animation: mario 500ms infinite ease-in-out;
+}
+
+.jump {
+    animation: mario 500ms ease-in-out;
 }
 
 .pipe {
     position: absolute;
     bottom: -1px;
-    width: 170px;
+    width: 160px;
     animation: pipe 2s infinite linear;
 }
 
@@ -91,11 +94,11 @@ body {
     }
 
     40% {
-        bottom: 200px;
+        bottom: 220px;
     }
 
     60% {
-        bottom: 200px;
+        bottom: 220px;
     }
 
     100% {
