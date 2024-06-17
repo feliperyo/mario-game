@@ -58,14 +58,14 @@ body {
 }
 
 .jump {
-    animation: mario 500ms ease-in-out;
+    animation: mario .5s ease-in-out;
 }
 
 .pipe {
     position: absolute;
     bottom: -1px;
     width: 160px;
-    animation: pipe 2s infinite linear;
+    animation: pipe 1s infinite linear;
 }
 
 @keyframes clouds {
